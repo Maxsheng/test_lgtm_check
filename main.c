@@ -12,8 +12,9 @@ void func1(int string_len)
 
 int main() 
 {
+	int len = 20;
 	char test_buf_overflow[16];
-	memset(test_buf_overflow, 0, 20);
+	memset(test_buf_overflow, 0, len);
 
 	int a = 1;
 	if (a == 2) {
